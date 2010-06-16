@@ -6,17 +6,17 @@
 
 <title> Wahalu - Bring Social Media To You </title>
 
-<link rel="stylesheet" type="text/css" href="/twitspare/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="/wahalu/css/style.css"/>
 
-<link rel="shortcut icon" href="/twitspare/images/favicon.ico">
+<link rel="shortcut icon" href="/wahalu/assets/images/icon/favicon.ico">
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js">
 </script>
 
-<script type="text/javascript" src="/twitspare/jquery/jquery.js">
+<script type="text/javascript" src="/wahalu/jquery/jquery.js">
 </script>
 
-<script type="text/javascript" src="/twitspare/jquery/script.js">
+<script type="text/javascript" src="/wahalu/jquery/script.js">
 </script>
 
 <script type="text/javascript">

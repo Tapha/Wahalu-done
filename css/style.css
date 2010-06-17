@@ -34,9 +34,15 @@ float: right;
 position: relative;
 left: -487px;
 border-bottom:5px solid #eee;
-
 }
 
+#what:hover
+
+{
+position: relative;
+left: -487px;
+border-bottom:5px solid #8ED17C;
+}
 
 #why
 
@@ -47,12 +53,29 @@ border-bottom:5px solid #eee;
 
 }
 
+#why:hover
+
+{
+position: relative;
+left: -450px;
+border-bottom:5px solid #8ED17C;
+
+}
+
 #how
 
 {
 position: relative;
 left: -370px;
 border-bottom:5px solid #eee;
+}
+
+#how:hover
+
+{
+position: relative;
+left: -370px;
+border-bottom:5px solid #8ED17C;
 
 }
 
@@ -62,7 +85,14 @@ border-bottom:5px solid #eee;
 position: relative;
 left: -410px;
 border-bottom:5px solid #eee;
+}
 
+#pricing:hover
+
+{
+position: relative;
+left: -410px;
+border-bottom:5px solid #8ED17C;
 }
 
 #buzz
@@ -71,6 +101,14 @@ border-bottom:5px solid #eee;
 position: relative;
 left: -330px;
 border-bottom:5px solid #eee;
+}
+
+#buzz:hover
+
+{
+position: relative;
+left: -330px;
+border-bottom:5px solid #8ED17C;
 
 }
 
@@ -82,6 +120,14 @@ left: -290px;
 border-bottom:5px solid #eee;
 }
 
+
+#tour:hover
+
+{
+position: relative;
+left: -290px;
+border-bottom:5px solid #8ED17C;
+}
 #real_nav a
 
 {

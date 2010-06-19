@@ -15,7 +15,6 @@ border:none;
 #header
 
 {
-background-color: 90EE90;
 padding: 5px 5px 5px 5px;
 height: 61px;font-family: Helvetica, Arial, sans-serif;
 border-bottom: 4px dashed #BBB;
@@ -32,7 +31,7 @@ float: right;
 
 {
 position: relative;
-left: -487px;
+left: -477px;
 border-bottom:5px solid #eee;
 }
 
@@ -40,7 +39,7 @@ border-bottom:5px solid #eee;
 
 {
 position: relative;
-left: -487px;
+left: -477px;
 border-bottom:5px solid #8ED17C;
 }
 
@@ -48,7 +47,7 @@ border-bottom:5px solid #8ED17C;
 
 {
 position: relative;
-left: -450px;
+left: -440px;
 border-bottom:5px solid #eee;
 
 }
@@ -57,16 +56,15 @@ border-bottom:5px solid #eee;
 
 {
 position: relative;
-left: -450px;
+left: -440px;
 border-bottom:5px solid #8ED17C;
-
 }
 
 #how
 
 {
 position: relative;
-left: -370px;
+left: -360px;
 border-bottom:5px solid #eee;
 }
 
@@ -74,16 +72,15 @@ border-bottom:5px solid #eee;
 
 {
 position: relative;
-left: -370px;
+left: -360px;
 border-bottom:5px solid #8ED17C;
-
 }
 
 #pricing
 
 {
 position: relative;
-left: -410px;
+left: -400px;
 border-bottom:5px solid #eee;
 }
 
@@ -91,7 +88,7 @@ border-bottom:5px solid #eee;
 
 {
 position: relative;
-left: -410px;
+left: -400px;
 border-bottom:5px solid #8ED17C;
 }
 
@@ -99,7 +96,7 @@ border-bottom:5px solid #8ED17C;
 
 {
 position: relative;
-left: -330px;
+left: -320px;
 border-bottom:5px solid #eee;
 }
 
@@ -107,7 +104,7 @@ border-bottom:5px solid #eee;
 
 {
 position: relative;
-left: -330px;
+left: -320px;
 border-bottom:5px solid #8ED17C;
 
 }
@@ -116,7 +113,7 @@ border-bottom:5px solid #8ED17C;
 
 {
 position: relative;
-left: -290px;
+left: -280px;
 border-bottom:5px solid #eee;
 }
 
@@ -125,14 +122,34 @@ border-bottom:5px solid #eee;
 
 {
 position: relative;
-left: -290px;
+left: -280px;
 border-bottom:5px solid #8ED17C;
 }
+
+#Sign_up_1 
+
+{
+position: relative;
+left: 420px;
+top: -41px;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, Arial, sans-serif;
+text-decoration: none;
+color: #3671A1;
+font-size: 20px;
+border-bottom: 3px solid #eee;
+}
+
+#Sign_up_1:hover
+
+{
+border-bottom: 3px solid #6495ED;
+}
+
 #real_nav a
 
 {
 position:relative;
-color: #bbb;
+color: #787878;
 float: left;
 top:-10px;
 right: 404px;
@@ -161,4 +178,22 @@ border-bottom: 4px dashed #BBB;
 #main
 
 {
+}
+
+#benefit
+
+{
+position:relative;
+left: 133px;
+top: 400px;
+border-top: 4px dashed #eee;
+width: 842px;
+}
+
+#footer
+
+{
+top: 600px;
+position: relative;
+border-top: 4px dashed #bbb;
 }

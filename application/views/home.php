@@ -48,13 +48,15 @@
 <a id='tour' href='/'>Tour</a>
 </span>
 </h1>
-<a id='Sign_in_1' href='/'></a>
+<a id='Sign_up_1' href='/'>Advisor Sign Up</a>
 
 </div>
 </div>	
 <body id="container">
 <div id="main">
 <img id='the_logo' src='/wahalu/assets/images/logo/wahalu_logo.png'>
+<div id='benefit'>3 benefit</div>
 </div>
+<div id='footer'>footer</div>
 </body>	
 </html>

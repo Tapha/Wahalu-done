@@ -54,6 +54,8 @@
 </div>	
 <body id="container">
 <div id="main">
+<div id='tagline'><h1>We Bring Social Media To You</h1><h2 id='quick_desc'>We have brought together a community of the best in social media and put them on an innovative platform and model that allows you to efficiently and 
+ easily get insight and advice on how best to promote your brand in this new social landscape. Other's believe in tools but we believe in people.</h2></div>
 <img id='the_logo' src='/wahalu/assets/images/logo/wahalu_logo.png'>
 <div id='benefit'>3 benefit</div>
 </div>

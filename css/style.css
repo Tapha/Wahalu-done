@@ -160,8 +160,24 @@ text-decoration: none;
 
 #container
 
+{}
+
+#tagline
+
 {
-background: #FBFBFB;
+position: absolute;
+color: #8ED17C;
+left: 404px;
+top: 75px;
+font-family: Helvetica, sans-serif;
+}
+
+#quick_desc
+
+{
+width: 490px;
+color: #787;
+font-size: 16px;
 }
 
 #the_logo
@@ -186,8 +202,9 @@ border-bottom: 4px dashed #BBB;
 position:relative;
 left: 133px;
 top: 400px;
-border-top: 4px dashed #eee;
+border-top: 4px dashed #BBB;
 width: 842px;
+color: #ddd;
 }
 
 #footer

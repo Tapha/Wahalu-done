@@ -10,17 +10,20 @@
 
 <link rel="shortcut icon" href="/wahalu/assets/images/icon/favicon.ico">
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.js">
 </script>
 
 <script type="text/javascript" src="/wahalu/jquery/jquery.js">
 </script>
 
+<link rel="stylesheet" href="/wahalu/jquery/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="/wahalu/jquery/fancybox/jquery.fancybox-1.3.1.pack.js">
+</script>
+
 <script type="text/javascript" src="/wahalu/jquery/script.js">
 </script>
 
-<script type="text/javascript">
-</script>
 
 
 	<meta name="title" content="Wahalu" />
@@ -36,7 +39,12 @@
 	
 </head>	
 <div id ='header'>
-<img id='icon_no_1' src='/wahalu/assets/images/icon/w/wahalu_icon_w.png'>
+<a href=''><img id='icon_no_1' src='/wahalu/assets/images/icon/w/wahalu_icon_w.png'></a>
+<img id='login_icon_1' src='/wahalu/assets/images/icons/login_icon_1.png'>
+<img id='login_icon_2' src='/wahalu/assets/images/icons/login_icon_2.png'>
+<img id='login_icon_3' src='/wahalu/assets/images/icons/login_icon_3.png'>
+<img id='login_icon_4' src='/wahalu/assets/images/icons/login_icon_4.png'>
+<img id='login_icon_5' src='/wahalu/assets/images/icons/login_icon_5.png'>
 <div id ='nav'>
 <h1>
 <span id ='real_nav'>

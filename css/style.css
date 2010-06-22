@@ -9,7 +9,7 @@ border:none;
 #icon_no_1
 
 {
-
+postition: relative;
 }
 
 #header
@@ -20,6 +20,47 @@ height: 61px;font-family: Helvetica, Arial, sans-serif;
 border-bottom: 4px dashed #BBB;
 
 }
+
+#login_icon_1 
+
+{
+position: absolute;
+top: 92px;
+left: 41px;
+}
+
+#login_icon_2
+
+{
+position: absolute;
+top: 162px;
+left: 41px;
+}
+
+#login_icon_3
+
+{
+position: absolute;
+top: 236px;
+left: 41px;
+}
+
+#login_icon_4
+
+{
+position: absolute;
+top: 312px;
+left: 41px;
+}
+
+#login_icon_5 
+
+{
+position: absolute;
+top: 387px;
+left: 41px;
+}
+
 #nav
 
 {

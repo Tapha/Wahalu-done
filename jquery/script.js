@@ -35,7 +35,7 @@ var interval = setInterval(function() {
 	
 	//Display 2
 	
-	$('#login_icon_1').fadeOut();
+	$('#login_icon_1').fadeOut(750);
 	
 	//Fade in login icon 2
 	
@@ -45,18 +45,45 @@ var interval = setInterval(function() {
 	
 	if (counter == 3) {
 	
-	//Display 1
+	//Display 3
+	
+	//Display 2
+	
+	$('#login_icon_2').fadeOut(500);
+	
+	//Fade in login icon 2
+	
+	$('#login_icon_3').fadeIn();
 	
 	}
 	
 	if (counter == 4) {
 	
-	//Display 1
+	//Display 4
+	
+	//Display 2
+	
+	$('#login_icon_3').fadeOut(500);
+	
+	//Fade in login icon 2
+	
+	$('#login_icon_4').fadeIn();
 	
 	}
 	
     if (counter == 5) {
 	
+	//Display 2
+	
+	$('#login_icon_4').fadeOut(500);
+	
+	//Fade in login icon 2
+	
+	$('#login_icon_5').fadeIn();
+	
+	//Display 2
+	
+	$('#login_icon_5').fadeOut(1000);
 	   
         // Display 5 then a login box
 		

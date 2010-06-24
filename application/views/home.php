@@ -65,8 +65,28 @@
 <div id='tagline'><h1>We Bring Social Media To You</h1><h2 id='quick_desc'>We have brought together a community of the best in social media and put them on an innovative platform and model that allows you to efficiently and 
  easily get insight and advice on how best to promote your brand in this new social landscape. Other's believe in tools but we believe in people.</h2></div>
 <img id='the_logo' src='/wahalu/assets/images/logo/wahalu_logo.png'>
-<div id='benefit'>3 benefit</div>
+<div id='customers_text'><h1>Customers</h1></div>
+<div id='customers_image_1'><img src='/wahalu/assets/images/customers/logo_mahalo.jpg'></div>
+<div id='customers_image_2'><img src='/wahalu/assets/images/customers/logo_deloitte.jpg'></div>
+<div id='customers_image_3'><img src='/wahalu/assets/images/customers/logo_cargill.jpg'></div>
+<div id='customers_image_4'><img src='/wahalu/assets/images/customers/logo_matchstic.jpg'></div>
+<div id='customers_image_5'><img src='/wahalu/assets/images/customers/logo_amd.jpg'></div>
+<div id='customers_image_6'><img src='/wahalu/assets/images/customers/logo_smg.jpg'></div>
+<div id='customers_image_7'><img src='/wahalu/assets/images/customers/logo_pitneybowes.jpg'></div>
+<div id='benefit'><h1 id='text_benefits'>Benefits</h1></div>
 </div>
-<div id='footer'>footer</div>
+<div id='footer'>
+<h1>
+<span id='copy'>Dummy Limited &#169; 2010.</span> 
+<span id ='footer_nav'>
+<a id='About' href='/'>About</a>
+<a id='pricing_footer' href='/'>Pricing</a>
+<a id='privacy' href='/'>Privacy Policy</a>
+<a id='buzz_footer' href='/'>Buzz</a>
+<a id='tour_footer' href='/'>Tour</a>
+</span>
+</h1>
+</div>
+<a id='login_box' href='/wahalu/index.php/login_advisor'></a>
 </body>	
 </html>

@@ -203,6 +203,75 @@ text-decoration: none;
 
 {}
 
+#customers_text
+
+{
+position: relative;
+top: 240px;
+left: 180px;
+background:#FF9;
+width:104px;
+font-size: 10px;
+color: #787878;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+#customers_image_1
+
+{
+position: absolute;
+left:180px;
+top: 400px;
+}
+
+#customers_image_2
+
+{
+position: absolute;
+left:180px;
+top: 400px;
+}
+
+#customers_image_3
+
+{
+position: absolute;
+left:180px;
+top: 400px;
+}
+
+#customers_image_4
+
+{
+position: absolute;
+left:180px;
+top: 400px;
+}
+
+#customers_image_5
+
+{
+position: absolute;
+left:180px;
+top: 400px;
+}
+
+#customers_image_6
+
+{
+position: absolute;
+left:180px;
+top: 400px;
+}
+
+#customers_image_7
+
+{
+position: absolute;
+left:180px;
+top: 400px;
+}
+
 #tagline
 
 {
@@ -248,10 +317,91 @@ width: 842px;
 color: #ddd;
 }
 
+#text_benefits
+
+{
+background:#FF9;
+width:83px;
+font-size: 20px;
+color: #787878;
+font-family: Helvetica, Arial, sans-serif;
+}
+
 #footer
 
 {
 top: 600px;
 position: relative;
 border-top: 4px dashed #bbb;
+font-family: Helvetica, Arial, sans-serif;
+color: #787878;
+font-size: 10px;
+text-align: center;
+}
+
+#footer_nav a
+
+{
+text-decoration:none;
+color: #787878;
+}
+
+#About
+
+{
+background: #8ED17C;
+}
+
+#About:hover
+
+{
+background: #bbb;
+}
+
+#pricing_footer
+
+{
+background: #8ED17C;
+}
+
+#pricing_footer:hover
+
+{
+background: #bbb;
+}
+
+#privacy
+
+{
+background: #8ED17C;
+}
+
+#privacy:hover
+
+{
+background: #bbb;
+}
+
+#buzz_footer
+
+{
+background: #8ED17C;
+}
+
+#buzz_footer:hover
+
+{
+background: #bbb;
+}
+
+#tour_footer
+
+{
+background: #8ED17C;
+}
+
+#tour_footer:hover
+
+{
+background: #bbb;
 }

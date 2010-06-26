@@ -209,10 +209,10 @@ text-decoration: none;
 position: relative;
 top: 240px;
 left: 180px;
-background:#FF9;
+background:#8ED17C;
 width:104px;
 font-size: 10px;
-color: #787878;
+color: #FFF;
 font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -306,6 +306,19 @@ border-bottom: 4px dashed #BBB;
 {
 }
 
+#how_it_works
+
+{
+position: relative;
+top: 156px;
+left: 397px;
+background:#8ED17C;
+width:128px;
+font-size: 10px;
+color: #FFF;
+font-family: Helvetica, Arial, sans-serif;
+}
+
 #benefit
 
 {
@@ -320,10 +333,10 @@ color: #ddd;
 #text_benefits
 
 {
-background:#FF9;
+background:#8ED17C;
 width:83px;
 font-size: 20px;
-color: #787878;
+color: #FFF;
 font-family: Helvetica, Arial, sans-serif;
 }
 

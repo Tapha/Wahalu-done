@@ -10,20 +10,11 @@
 
 <link rel="shortcut icon" href="/wahalu/assets/images/icon/favicon.ico">
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.js">
-</script>
-
 <script type="text/javascript" src="/wahalu/jquery/jquery.js">
-</script>
-
-<link rel="stylesheet" href="/wahalu/jquery/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />
-
-<script type="text/javascript" src="/wahalu/jquery/fancybox/jquery.fancybox-1.3.1.pack.js">
 </script>
 
 <script type="text/javascript" src="/wahalu/jquery/script.js">
 </script>
-
 
 
 	<meta name="title" content="Wahalu" />
@@ -73,6 +64,7 @@
 <div id='customers_image_5'><img src='/wahalu/assets/images/customers/logo_amd.jpg'></div>
 <div id='customers_image_6'><img src='/wahalu/assets/images/customers/logo_smg.jpg'></div>
 <div id='customers_image_7'><img src='/wahalu/assets/images/customers/logo_pitneybowes.jpg'></div>
+<div id='how_it_works'><h1>How It Works</h1></div>
 <div id='benefit'><h1 id='text_benefits'>Benefits</h1></div>
 </div>
 <div id='footer'>
@@ -87,6 +79,5 @@
 </span>
 </h1>
 </div>
-<a id='login_box' href='/wahalu/index.php/login_advisor'></a>
 </body>	
 </html>

@@ -127,6 +127,8 @@ var interval = setInterval(function() {
 
 //Click On Sign Up
 
+var login_interval;
+var counter2 = 0;
 //Mouseover start countdown
 
 $("#icon_no_1").mouseover(function()
@@ -136,12 +138,13 @@ $(this).fadeTo("slow", 0.23);
 
 //Countdown
 
-var counter = 0;
-var interval = setInterval(function() {
-    counter++;
+counter2 = 0;
+
+login_interval = setInterval(function() {
+    counter2++;
     // Display 'counter' wherever you want to display it.
 
-	if (counter == 1) {
+	if (counter2 == 1) {
 	
 	//Display 1
 	$('#login_icon_1').fadeIn();
@@ -149,7 +152,7 @@ var interval = setInterval(function() {
 	
 	}
 	
-	if (counter == 2) {
+	if (counter2 == 2) {
 	
 	//Display 2
 	
@@ -161,7 +164,7 @@ var interval = setInterval(function() {
 	
 	}
 	
-	if (counter == 3) {
+	if (counter2 == 3) {
 	
 	//Display 3
 	
@@ -175,7 +178,7 @@ var interval = setInterval(function() {
 	
 	}
 	
-	if (counter == 4) {
+	if (counter2 == 4) {
 	
 	//Display 4
 	
@@ -189,7 +192,7 @@ var interval = setInterval(function() {
 	
 	}
 	
-    if (counter == 5) {
+    if (counter2 == 5) {
 	
 	//Display 2
 	
@@ -202,17 +205,14 @@ var interval = setInterval(function() {
 	//Display 2
 	
 	$('#login_icon_5').fadeOut(1000);
-	   
-        // Display 5 then a login box
 		
-		if ($("#icon_no_1").mouseover)
-		
-		{
-			$("#login_box").fancybox();
-		}
-		
-        clearInterval(counter);
     }
+	
+	if (counter2 == 6) {
+	
+	window.location = "/wahalu/index.php/login_advisor";
+
+	}
 }, 1000);
 
 }
@@ -221,6 +221,10 @@ var interval = setInterval(function() {
 
 $("#icon_no_1").mouseleave(function()
 {
+
+clearInterval(login_interval);
+
+counter2 = 0;
 
 $(this).fadeTo("slow", 1);
 

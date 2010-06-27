@@ -16,6 +16,11 @@
 <script type="text/javascript" src="/wahalu/jquery/script.js">
 </script>
 
+<link type="text/css" href="/wahalu/jquery/css/custom-theme/jquery-ui-1.8.custom.css" rel="Stylesheet" />	
+
+<script type="text/javascript" src="/wahalu/jquery/js/jquery-1.4.2.min.js"></script>
+
+<script type="text/javascript" src="/wahalu/jquery/js/jquery-ui-1.8.2.custom.min.js"></script>
 
 	<meta name="title" content="Wahalu" />
 	

@@ -9,8 +9,6 @@ $('#login_icon_3').hide();
 $('#login_icon_4').hide();
 $('#login_icon_5').hide();
 
-$('#login_box').hide();
-
 //Hide customers icons
 
 $('#customers_image_1').hide();
@@ -210,7 +208,7 @@ login_interval = setInterval(function() {
 	
 	if (counter2 == 6) {
 	
-	window.location = "/wahalu/index.php/login_advisor";
+	window.location = "/wahalu/index.php/login";
 
 	}
 }, 1000);

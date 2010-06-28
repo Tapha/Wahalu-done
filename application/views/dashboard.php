@@ -16,14 +16,11 @@
 
 <script type="text/javascript" src="/wahalu/jquery/js/jquery-1.4.2.min.js"></script>
 
-<script type="text/javascript" src="/wahalu/jquery/js/jquery-ui-1.8.custom.min.js"></script>
+<script type="text/javascript" src="/wahalu/jquery/js/jquery-ui-1.8.2.custom.min.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){
-//Hide Tabs
-.ui-tabs-hide {  
-display: none;  
-} 
+ 
 //Tab
 $('#tabs').tabs();
 
@@ -44,7 +41,8 @@ $('#tabs').tabs();
 	
 </head>	
 <body id="dashboard">
-<?php echo $company_name; ?>
+<div id='logout'>logout</div>
+<div id='company_name'><h1><?php echo $company_name; ?></h1></div>
 <div id="tabs">
 <ul>
     <li><a id='tabs-1' href='#account'><span>Account</span></a></li>

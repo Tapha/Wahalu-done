@@ -38,6 +38,10 @@ class verification extends Controller {
 		
 		$data['user_number'] = $user_number;
 		
+		$company_name = 'Wahalu Corp';
+		
+		$data['company_name'] = $company_name;
+		
 		//Get all user data
 		
 		if (($username == $check_username) && ($password == $check_password))

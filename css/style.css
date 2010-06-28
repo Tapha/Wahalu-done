@@ -514,3 +514,7 @@ background: #8ED17C;
 {
 background: #bbb;
 }
+
+.ui-tabs .ui-tabs-hide {
+     display: none;
+}

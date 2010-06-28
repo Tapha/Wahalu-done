@@ -236,4 +236,8 @@ $('#login_icon_5').hide();
 
 );
 
+//Tab
+
+$('#tabs').tabs();
+
 });

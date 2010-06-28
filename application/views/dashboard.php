@@ -18,7 +18,7 @@
 <script type="text/javascript" src="/wahalu/jquery/script.js">
 </script>
 
-<link type="text/css" href="/wahalu/jquery/css/custom-theme/jquery-ui-1.8.custom.css" rel="Stylesheet" />	
+<link type="text/css" href="http://localhost/wahalu/jquery/css/custom-theme/jquery-ui-1.8.2.custom.css" rel="Stylesheet" />	
 
 <script type="text/javascript" src="/wahalu/jquery/js/jquery-1.4.2.min.js"></script>
 
@@ -37,7 +37,19 @@
 	
 </head>	
 <body id="dashboard">
-<?php echo $user_type; ?> Number Dummy Limited. Logged In.
+<?php echo $company_name; ?>
+<div id="Tabs">
+<ul>
+    <li><a id='tabs-1' href='#account'><span>Account</span></a></li>
+    <li><a id='tabs-2' href='#start_conversation'><span>Start Conversations</span></a></li>
+	<li><a id='tabs-3' href='#view_conversation'><span>View Conversations</span></a></li>
+	<li><a id='tabs-4' href='#open_tabs'><span>Open Tabs</span></a></li>
+	<li><a id='tabs-5' href='#work_room'><span>Work Room</span></a></li>
+</ul>
+<div id="0">This is the content panel linked to the first tab, it is shown by default.</div>
+<div id="1">This content is linked to the second tab and will be shown when its tab is clicked.</div>
+</div>
+
 </body>	
 </html>
 

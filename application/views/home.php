@@ -70,6 +70,15 @@
 <div id='customers_image_6'><img src='/wahalu/assets/images/customers/logo_smg.jpg'></div>
 <div id='customers_image_7'><img src='/wahalu/assets/images/customers/logo_pitneybowes.jpg'></div>
 <div id='how_it_works'><h1>How It Works</h1></div>
+<div id='works_title_1'>Start A Conversation</div>
+<div id='works'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
+<div id='works_description'>Start a conversation about your social media with people who know what's really going on. Our Registered Social Media Advisors.</div>
+<div id='works_title_2'>Gain Insight</div>
+<div id='works_2'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
+<div id='works_description_2'>Get insights and real-time advice on how best to promote your brand in this new social landscape. Our innovative platform allows you to see the best insights.</div>
+<div id='works_title_3'>Start A Conversation</div>
+<div id='works_3'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
+<div id='works_description_3'>Start a conversation about your social media with people who know what's really going on. Our Registered Social Media Advisors.</div>
 <div id='benefit'><h1 id='text_benefits'>Benefits</h1></div>
 </div>
 <div id='footer'>

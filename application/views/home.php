@@ -4,7 +4,7 @@
 
 <head>
 
-<title> Wahalu - Bring Social Media To You </title>
+<title> Wahalu - Bring Social Media Strategy To You </title>
 
 <link rel="stylesheet" type="text/css" href="/wahalu/css/style.css"/>
 
@@ -58,7 +58,7 @@
 </div>	
 <body id="container">
 <div id="main">
-<div id='tagline'><h1>We Bring Social Media To You</h1><h2 id='quick_desc'>We have brought together a community of the best in social media and put them on an innovative platform and model that allows you to efficiently and 
+<div id='tagline'><h1>We Bring Social Media Strategy To You</h1><h2 id='quick_desc'>We have brought together a community of the best in social media and put them on an innovative platform and model that allows you to efficiently and 
  easily get insight and advice on how best to promote your brand in this new social landscape. Other's believe in tools but we believe in people.</h2></div>
 <img id='the_logo' src='/wahalu/assets/images/logo/wahalu_logo.png'>
 <div id='customers_text'><h1>Customers</h1></div>
@@ -72,13 +72,13 @@
 <div id='how_it_works'><h1>How It Works</h1></div>
 <div id='works_title_1'>Start A Conversation</div>
 <div id='works'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
-<div id='works_description'>Start a conversation about your social media with people who know what's really going on. Our Registered Social Media Advisors.</div>
+<div id='works_description'>Start a conversation about your social media strategy with people who know what's really going on. Our Registered Social Media Advisors.</div>
 <div id='works_title_2'>Gain Insight</div>
-<div id='works_2'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
+<div id='works_2'><img src='/wahalu/assets/images/works/w_wahalu_conversation.png'></div>
 <div id='works_description_2'>Get insights and real-time advice on how best to promote your brand in this new social landscape. Our innovative platform allows you to see the best insights.</div>
-<div id='works_title_3'>Start A Conversation</div>
+<div id='works_title_3'>Engage</div>
 <div id='works_3'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
-<div id='works_description_3'>Start a conversation about your social media with people who know what's really going on. Our Registered Social Media Advisors.</div>
+<div id='works_description_3'>Engage with the social media advisors whose ideas resonate with you the most and work with them to execute on your new strategies.</div>
 <div id='benefit'><h1 id='text_benefits'>Benefits</h1></div>
 </div>
 <div id='footer'>

@@ -41,18 +41,27 @@ $('#tabs').tabs();
 	
 </head>	
 <body id="dashboard">
-<div id='logout'>logout</div>
+<div id='logout'><a href='/wahalu/index.php/logout/'>logout</a></div>
 <div id='company_name'><h1><?php echo $company_name; ?></h1></div>
 <div id="tabs">
 <ul>
     <li><a id='tabs-1' href='#account'><span>Account</span></a></li>
-    <li><a id='tabs-2' href='#start_conversation'><span>Start Conversations</span></a></li>
+    <li><a id='tabs-2' href='#start_conversation'><span>Start Conversation</span></a></li>
 	<li><a id='tabs-3' href='#view_conversation'><span>View Conversations</span></a></li>
 	<li><a id='tabs-4' href='#open_tabs'><span>Open Tabs</span></a></li>
 	<li><a id='tabs-5' href='#work_room'><span>Work Room</span></a></li>
 </ul>
 <div id="account">This is the content panel linked to the first tab, it is shown by default.</div>
-<div id="start_conversation">This content is linked to the second tab and will be shown when its tab is clicked.</div>
+<div id="start_conversation"><div id='start_head'><h2>Ask a question or make a statement.</h2></div>
+<br>
+<form action='/wahalu/index.php/start_conversation/' method='POST'>
+<input id='form_start_conversation' type='text' name='start_conversation'><br><br><br>
+<input id='start_submit_button' type='submit' value='Start'>
+</form>
+</div>
+<div id="view_conversation">This is the content panel linked to the first tab, it is shown by default.</div>
+<div id="open_tabs">This is the content panel linked to the first tab, it is shown by default.</div>
+<div id="work_room">This is the content panel linked to the first tab, it is shown by default.</div>
 </div>
 
 </body>	

@@ -1,8 +1,8 @@
 <?php
 
-class verification extends Controller {
+class dashboard extends Controller {
 
-	function verification()
+	function dashboard()
 	{
 		parent::Controller();	
 	}

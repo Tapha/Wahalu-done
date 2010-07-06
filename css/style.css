@@ -523,9 +523,52 @@ background: #bbb;
 font-family: Helvetica, Arial, sans-serif;
 color: #787878;
 font-size: 15px;
+width: 200px;
+}
+
+#start_head
+
+{
+font-size:15px;
+background: #FFF;
+width: 950px;
 }
 
 .ui-tabs .ui-tabs-hide {
      display: none;
 }
 
+#form_start_conversation
+
+{
+height: 50px;
+width: 970px;
+font-size: 40px;
+}
+
+#start_submit_button
+
+{
+height: 50px;
+width: 100px;
+font-size: 20px;
+}
+
+#logout a
+
+{
+position: relative;
+background: #FF9;
+float: right;
+font-family: Helvetica, Arial, sans-serif;
+color: #787878;
+font-size: 20px;
+}
+
+#logout a:hover
+
+{
+background: #e2f8ef;
+}
+
+a {text-decoration:none;}

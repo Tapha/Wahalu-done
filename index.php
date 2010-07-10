@@ -44,15 +44,15 @@
 <div id ='nav'>
 <h1>
 <span id ='real_nav'>
-<a id='what' href='/'>What Is Wahalu?</a>
-<a id='why' href='/'>Benefits</a>
-<a id='pricing' href='/'>Pricing</a>
+<a id='what' href='/wahalu/what_is.php/'>What Is Wahalu?</a>
+<a id='why' href='/wahalu/benefits.php/'>Benefits</a>
+<a id='pricing' href='/wahalu/pricing.php/'>Pricing</a>
 <a id='how' href='/wahalu/how_to_buy.php/'>How To Buy</a>
-<a id='buzz' href='/'>Buzz</a>
-<a id='tour' href='/'>Tour</a>
+<a id='buzz' href='/wahalu/buzz.php/'>Buzz</a>
+<a id='tour' href='/wahalu/tour.php/'>Tour</a>
 </span>
 </h1>
-<a id='Sign_up_1' href='/'>Advisor Sign Up</a>
+<a id='Sign_up_1' href='/wahalu/advisor_sign_up.php'>Advisor Sign Up</a>
 
 </div>
 </div>	

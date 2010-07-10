@@ -208,7 +208,7 @@ login_interval = setInterval(function() {
 	
 	if (counter2 == 6) {
 	
-	window.location = "/wahalu/index.php/login";
+	window.location = "/wahalu/login.php";
 
 	}
 }, 1000);

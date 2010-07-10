@@ -1,4 +1,4 @@
-<?php if (isset($user_number)){ ?>
+<?php// if (isset($user_number)){ ?>
 
 <!doctype html>
 
@@ -19,10 +19,22 @@
 <script type="text/javascript" src="/wahalu/jquery/js/jquery-ui-1.8.2.custom.min.js"></script>
 
 <script type="text/javascript">
+
 $(document).ready(function(){
- 
-//Tab
-$('#tabs').tabs();
+
+//Dashboard
+
+$('#form_submitted').hide();
+
+$('#start_submit_button').click(function(){
+
+//Show form submitted
+
+$('form_submitted').FadeIn('slow');
+
+//Submit the form the database. 
+
+});
 
 });
 
@@ -41,23 +53,16 @@ $('#tabs').tabs();
 	
 </head>	
 <body id="dashboard">
-<div id='logout'><a href='/wahalu/index.php/logout/'>logout</a></div>
-<div id='company_name'><h1><?php echo $company_name; ?></h1></div>
-<div id="tabs">
-<ul>
-    <li><a id='tabs-1' href='#account'><span>Account</span></a></li>
-    <li><a id='tabs-2' href='#start_conversation'><span>Start Conversation</span></a></li>
-	<li><a id='tabs-3' href='#view_conversation'><span>View Conversations</span></a></li>
-	<li><a id='tabs-4' href='#open_tabs'><span>Open Tabs</span></a></li>
-	<li><a id='tabs-5' href='#work_room'><span>Work Room</span></a></li>
-</ul>
+<div id='logout'><a href='/wahalu/logout.php/'>logout</a></div>
+<div id='company_name'><h1><?php echo 'Wahalu'; ?></h1></div>
 <div id="account">This is the content panel linked to the first tab, it is shown by default.</div>
 <div id="start_conversation"><div id='start_head'><h2>Ask a question or make a statement.</h2></div>
 <br>
-<form action='/wahalu/index.php/start_conversation/' method='POST'>
+<form id ='start_form'>
 <input id='form_start_conversation' type='text' name='start_conversation'><br><br><br>
 <input id='start_submit_button' type='submit' value='Start'>
 </form>
+<div id='form_submitted'>Success, you have now started a conversation. Get Ready!</div>
 </div>
 <div id="view_conversation">This is the content panel linked to the first tab, it is shown by default.</div>
 <div id="open_tabs">This is the content panel linked to the first tab, it is shown by default.</div>
@@ -67,4 +72,4 @@ $('#tabs').tabs();
 </body>	
 </html>
 
-<?php } else {echo "Na na na na na na, your not logged in.";}?>
+<?php// } else {echo "Na na na na na na, your not logged in.";}?>

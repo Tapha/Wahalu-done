@@ -1,118 +1,97 @@
-<?php
-/*
-|---------------------------------------------------------------
-| PHP ERROR REPORTING LEVEL
-|---------------------------------------------------------------
-|
-| By default CI runs with error reporting set to ALL.  For security
-| reasons you are encouraged to change this when your site goes live.
-| For more info visit:  http://www.php.net/error_reporting
-|
-*/
-	error_reporting(E_ALL);
+<!doctype html>
 
-/*
-|---------------------------------------------------------------
-| SYSTEM FOLDER NAME
-|---------------------------------------------------------------
-|
-| This variable must contain the name of your "system" folder.
-| Include the path if the folder is not in the same  directory
-| as this file.
-|
-| NO TRAILING SLASH!
-|
-*/
-	$system_folder = "system";
+<html>
 
-/*
-|---------------------------------------------------------------
-| APPLICATION FOLDER NAME
-|---------------------------------------------------------------
-|
-| If you want this front controller to use a different "application"
-| folder then the default one you can set its name here. The folder 
-| can also be renamed or relocated anywhere on your server.
-| For more info please see the user guide:
-| http://codeigniter.com/user_guide/general/managing_apps.html
-|
-|
-| NO TRAILING SLASH!
-|
-*/
-	$application_folder = "application";
+<head>
 
-/*
-|===============================================================
-| END OF USER CONFIGURABLE SETTINGS
-|===============================================================
-*/
+<title> Wahalu - Bring Social Media Strategy To You </title>
 
+<link rel="stylesheet" type="text/css" href="/wahalu/css/style.css"/>
 
-/*
-|---------------------------------------------------------------
-| SET THE SERVER PATH
-|---------------------------------------------------------------
-|
-| Let's attempt to determine the full-server path to the "system"
-| folder in order to reduce the possibility of path problems.
-| Note: We only attempt this if the user hasn't specified a 
-| full server path.
-|
-*/
-if (strpos($system_folder, '/') === FALSE)
-{
-	if (function_exists('realpath') AND @realpath(dirname(__FILE__)) !== FALSE)
-	{
-		$system_folder = realpath(dirname(__FILE__)).'/'.$system_folder;
-	}
-}
-else
-{
-	// Swap directory separators to Unix style for consistency
-	$system_folder = str_replace("\\", "/", $system_folder); 
-}
+<link rel="shortcut icon" href="/wahalu/assets/images/icon/favicon.ico">
 
-/*
-|---------------------------------------------------------------
-| DEFINE APPLICATION CONSTANTS
-|---------------------------------------------------------------
-|
-| EXT		- The file extension.  Typically ".php"
-| SELF		- The name of THIS file (typically "index.php")
-| FCPATH	- The full server path to THIS file
-| BASEPATH	- The full server path to the "system" folder
-| APPPATH	- The full server path to the "application" folder
-|
-*/
-define('EXT', '.php');
-define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
-define('FCPATH', str_replace(SELF, '', __FILE__));
-define('BASEPATH', $system_folder.'/');
+<script type="text/javascript" src="/wahalu/jquery/jquery.js">
+</script>
 
-if (is_dir($application_folder))
-{
-	define('APPPATH', $application_folder.'/');
-}
-else
-{
-	if ($application_folder == '')
-	{
-		$application_folder = 'application';
-	}
+<script type="text/javascript" src="/wahalu/jquery/script.js">
+</script>
 
-	define('APPPATH', BASEPATH.$application_folder.'/');
-}
+<link type="text/css" href="/wahalu/jquery/css/custom-theme/jquery-ui-1.8.custom.css" rel="Stylesheet" />	
 
-/*
-|---------------------------------------------------------------
-| LOAD THE FRONT CONTROLLER
-|---------------------------------------------------------------
-|
-| And away we go...
-|
-*/
-require_once BASEPATH.'codeigniter/CodeIgniter'.EXT;
+<script type="text/javascript" src="/wahalu/jquery/js/jquery-1.4.2.min.js"></script>
 
-/* End of file index.php */
-/* Location: ./index.php */
+<script type="text/javascript" src="/wahalu/jquery/js/jquery-ui-1.8.2.custom.min.js"></script>
+
+	<meta name="title" content="Wahalu" />
+	
+	<meta name="description" content="Bring Social Media To You" />
+	
+	<meta name="keywords" content="bring social media to you, social media, wahalu, social media consultant, social media consulting, seo consulting, seo consultant" />
+	
+	<meta name="Copyright" content="Dummy Limited" />
+	
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />	
+	
+	
+</head>	
+<div id ='header'>
+<a href='/wahalu/index.php/'><img id='icon_no_1' src='/wahalu/assets/images/icon/w/wahalu_icon_w.png'></a>
+<img id='login_icon_1' src='/wahalu/assets/images/icons/login_icon_1.png'>
+<img id='login_icon_2' src='/wahalu/assets/images/icons/login_icon_2.png'>
+<img id='login_icon_3' src='/wahalu/assets/images/icons/login_icon_3.png'>
+<img id='login_icon_4' src='/wahalu/assets/images/icons/login_icon_4.png'>
+<img id='login_icon_5' src='/wahalu/assets/images/icons/login_icon_5.png'>
+<div id ='nav'>
+<h1>
+<span id ='real_nav'>
+<a id='what' href='/'>What Is Wahalu?</a>
+<a id='why' href='/'>Benefits</a>
+<a id='pricing' href='/'>Pricing</a>
+<a id='how' href='/wahalu/how_to_buy.php/'>How To Buy</a>
+<a id='buzz' href='/'>Buzz</a>
+<a id='tour' href='/'>Tour</a>
+</span>
+</h1>
+<a id='Sign_up_1' href='/'>Advisor Sign Up</a>
+
+</div>
+</div>	
+<body id="container">
+<div id="main">
+<div id='tagline'><h1>We Bring Social Media Strategy To You</h1><h2 id='quick_desc'>We have brought together a community of the best in social media and put them on an innovative platform and model that allows you to efficiently and 
+ easily get insight and advice on how best to promote your brand in this new social landscape. Other's believe in tools but we believe in people.</h2></div>
+<img id='the_logo' src='/wahalu/assets/images/logo/wahalu_logo.png'>
+<div id='customers_text'><h1>Customers</h1></div>
+<div id='customers_image_1'><img src='/wahalu/assets/images/customers/logo_mahalo.jpg'></div>
+<div id='customers_image_2'><img src='/wahalu/assets/images/customers/logo_deloitte.jpg'></div>
+<div id='customers_image_3'><img src='/wahalu/assets/images/customers/logo_cargill.jpg'></div>
+<div id='customers_image_4'><img src='/wahalu/assets/images/customers/logo_matchstic.jpg'></div>
+<div id='customers_image_5'><img src='/wahalu/assets/images/customers/logo_amd.jpg'></div>
+<div id='customers_image_6'><img src='/wahalu/assets/images/customers/logo_smg.jpg'></div>
+<div id='customers_image_7'><img src='/wahalu/assets/images/customers/logo_pitneybowes.jpg'></div>
+<div id='how_it_works'><h1>How It Works</h1></div>
+<div id='works_title_1'>Start A Conversation</div>
+<div id='works'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
+<div id='works_description'>Start a conversation about your social media strategy with people who know what's really going on. Our Registered Social Media Advisors.</div>
+<div id='works_title_2'>Gain Insight</div>
+<div id='works_2'><img src='/wahalu/assets/images/works/w_wahalu_conversation.png'></div>
+<div id='works_description_2'>Get insights and real-time advice on how best to promote your brand in this new social landscape. Our innovative platform allows you to see the best insights.</div>
+<div id='works_title_3'>Engage</div>
+<div id='works_3'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
+<div id='works_description_3'>Engage with the social media advisors whose ideas resonate with you the most and work with them to execute on your new strategies.</div>
+<div id='benefit'><h1 id='text_benefits'>Benefits</h1></div>
+</div>
+<div id='footer'>
+<h1>
+<span id='copy'>Dummy Limited &#169; 2010.</span> 
+<span id ='footer_nav'>
+<a id='About' href='/'>About</a>
+<a id='pricing_footer' href='/'>Pricing</a>
+<a id='privacy' href='/'>Privacy Policy</a>
+<a id='buzz_footer' href='/'>Buzz</a>
+<a id='tour_footer' href='/'>Tour</a>
+</span>
+</h1>
+</div>
+</body>	
+</html>

@@ -523,10 +523,11 @@ background: #bbb;
 font-family: Helvetica, Arial, sans-serif;
 color: #787878;
 font-size: 25px;
-width: 200px;
+width: 400px;
 position: relative;
 top: -85px;
-left: 520px
+left: 402px;
+text-align: center;
 }
 
 #start_head
@@ -592,7 +593,7 @@ width: 144px;
 {
 position: relative;
 top: -10px;
-left: 150px;
+left: 152px;
 background: #8ED17C;
 width: 144px;
 }
@@ -602,9 +603,9 @@ width: 144px;
 {
 position: relative;
 top: -30px;
-left: 300px;
+left: 304px;
 background: #8ED17C;
-width: 77px;
+width: 74px;
 }
 
 #work_room

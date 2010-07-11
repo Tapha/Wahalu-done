@@ -65,7 +65,7 @@ $('form_submitted').FadeIn('slow');
 </h4>
 </div>
 <div id='company_name'><h1><?php echo 'Wahalu'; ?></h1></div>
-<div id='main'></div>
+<div id='main_body_dashboard'></div>
 </div>
 </div>
 

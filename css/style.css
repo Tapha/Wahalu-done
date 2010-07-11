@@ -671,7 +671,7 @@ width: 90px;
 color: #222;
 }
 
-#main
+#main_body_dashboard
 
 {
 color: #222222;
@@ -695,7 +695,7 @@ top: 150px;
 
 {
 position: relative;
-left: 200px;
+left: 150px;
 }
 
 #start_submit_button
@@ -724,4 +724,4 @@ background: #e2f8ef;
 }
 
 a {text-decoration:none; color: #FFF; font-family: Helvetica, Arial, sans-serif;}
-a:hover{color: #F99;}
+a:hover{color: #B2DFEE;}

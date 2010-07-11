@@ -420,7 +420,7 @@ left: 820px;
 {
 position:relative;
 left: 133px;
-top: 400px;
+top: 410px;
 border-top: 4px dashed #BBB;
 width: 842px;
 color: #ddd;
@@ -522,8 +522,11 @@ background: #bbb;
 {
 font-family: Helvetica, Arial, sans-serif;
 color: #787878;
-font-size: 15px;
+font-size: 25px;
 width: 200px;
+position: relative;
+top: -85px;
+left: 520px
 }
 
 #start_head
@@ -538,12 +541,161 @@ width: 950px;
      display: none;
 }
 
+#dashboard_nav
+
+{
+position: absolute;
+left: 430px;
+}
+
+#head_dashboard
+
+{
+}
+
+#start_conversation
+
+{
+position: relative;
+top:60px;
+}
+
 #form_start_conversation
 
 {
 height: 50px;
 width: 970px;
 font-size: 40px;
+}
+
+#My_Account
+
+{
+position: relative;
+top: -70px;
+left: -105px;
+background: #8ED17C;
+width: 91px;
+}
+
+#start_conversations
+
+{
+position: relative;
+top: 10px;
+background: #8ED17C;
+width: 144px;
+}
+
+#view_conversation
+
+{
+position: relative;
+top: -10px;
+left: 150px;
+background: #8ED17C;
+width: 144px;
+}
+
+#open_tab
+
+{
+position: relative;
+top: -30px;
+left: 300px;
+background: #8ED17C;
+width: 77px;
+}
+
+#work_room
+
+{
+position: relative;
+top: -50px;
+left: 390px;
+background: #8ED17C;
+width: 90px;
+}
+
+#My_Account:hover
+
+{
+position: relative;
+top: -70px;
+left: -105px;
+background: #FF9;
+width: 91px;
+color: #222;
+}
+
+#start_conversations:hover
+
+{
+position: relative;
+top: 10px;
+background: #FF9;
+width: 144px;
+color: #222;
+}
+
+#view_conversation:hover
+
+{
+position: relative;
+top: -10px;
+left: 150px;
+background: #FF9;
+width: 144px;
+color: #222;
+}
+
+#open_tab:hover
+
+{
+position: relative;
+top: -30px;
+left: 300px;
+background: #FF9;
+width: 77px;
+color: #222;
+}
+
+#work_room:hover
+
+{
+position: relative;
+top: -50px;
+left: 390px;
+background: #FF9;
+width: 90px;
+color: #222;
+}
+
+#main
+
+{
+color: #222222;
+float: left;
+background: #FFFFFF;
+-moz-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px;
+box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+left: 6.6%;
+height: 600px;
+width: 1093px;
+position: absolute;
+top: 150px;
+}
+
+/*start_conversation*/
+
+#start_conversation
+
+{
+position: relative;
+left: 200px;
 }
 
 #start_submit_button
@@ -562,7 +714,7 @@ background: #FF9;
 float: right;
 font-family: Helvetica, Arial, sans-serif;
 color: #787878;
-font-size: 20px;
+font-size: 17px;
 }
 
 #logout a:hover
@@ -571,4 +723,5 @@ font-size: 20px;
 background: #e2f8ef;
 }
 
-a {text-decoration:none;}
+a {text-decoration:none; color: #FFF; font-family: Helvetica, Arial, sans-serif;}
+a:hover{color: #F99;}

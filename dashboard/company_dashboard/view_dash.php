@@ -54,28 +54,22 @@ $('form_submitted').FadeIn('slow');
 </head>	
 <body id="dashboard">
 <div id='logout'><a href='/wahalu/logout.php/'>Logout</a></div>
-<a href='/wahalu/dashboard.php/'><img id='icon_no_1' src='/wahalu/assets/images/icon/w/wahalu_icon_w.png'></a>
+<a href='/wahalu/dashboard/company_dashboard/dashboard.php/'><img id='icon_no_1' src='/wahalu/dashboard/company_dashboard/assets/images/icon/w/wahalu_icon_w.png'></a>
 <div id='dashboard_nav'>
 <h4>
-<div id="start_conversations"><a href='/wahalu/start_dash.php'>Start Conversation</a></div>
-<div id="view_conversation"><a href='/wahalu/view_dash.php'>View Conversation</a></div>
-<div id="open_tab"><a href='/wahalu/open_dash.php'>Open Tab</a></div>
-<div id="work_room"><a href='/wahalu/work_dash.php'>Work Room</a></div>
-<div id="My_Account"><a href='/wahalu/my_dash.php'>My Account</a></div>
+<div id="start_conversations"><a href='/wahalu/dashboard/company_dashboard/start_dash.php'>Start Conversation</a></div>
+<div id="view_conversation"><a href='/wahalu/dashboard/company_dashboard/view_dash.php'>View Conversation</a></div>
+<div id="open_tab"><a href='/wahalu/dashboard/company_dashboard/open_dash.php'>Open Tab</a></div>
+<div id="work_room"><a href='/wahalu/dashboard/company_dashboard/work_dash.php'>Work Room</a></div>
+<div id="My_Account"><a href='/wahalu/dashboard/company_dashboard/my_dash.php'>My Account</a></div>
 </h4>
 </div>
 <div id='company_name'><h1><?php echo 'Wahalu'; ?></h1></div>
 <div id='main_body_dashboard'></div>
-<div id="start_conversation"><div id='start_head'><h2>Ask a question or make a statement.</h2></div>
-<br>
-<form id ='start_form'>
-<input id='form_start_conversation' type='text' name='start_conversation'><br><br><br>
-<input id='start_submit_button' type='submit' value='Start'>
-</form>
-<div id='form_submitted'>Success, you have now started a conversation. Get Ready!</div>
-</div>
 </div>
 </div>
 
 </body>	
 </html>
+
+<?php// } else {echo "Na na na na na na, your not logged in.";}?>

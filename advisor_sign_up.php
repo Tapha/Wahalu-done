@@ -4,7 +4,7 @@
 
 <head>
 
-<title> Wahalu - How To Buy </title>
+<title> Wahalu - Advisor Sign Up </title>
 
 <link rel="stylesheet" type="text/css" href="/wahalu/css/style.css"/>
 
@@ -54,14 +54,10 @@
 </h1>
 <a id='Sign_up_1' href='/wahalu/advisor_sign_up.php'>Advisor Sign Up</a>
 
-
 </div>
 </div>	
 <body id="container">
 <div id="main">
-<div id='how_to_buy_body'>
-<div id='how_to_buy_headline'><h1>Get Started With Our Advisors In Minutes</h1></div>
-
 </div>
 <div id='footer'>
 <h1>

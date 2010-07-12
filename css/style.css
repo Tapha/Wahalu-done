@@ -306,6 +306,25 @@ border-bottom: 4px dashed #BBB;
 {
 }
 
+/*how to buy */
+
+#how_to_buy_body
+
+{
+position:absolute;
+left: 134px;
+width: 800px;
+height: 800px;
+font-family: Helvetica, sans-serif;
+color: #787878;
+}
+
+#how_to_buy_headline
+
+{
+
+}
+
 #how_it_works
 
 {

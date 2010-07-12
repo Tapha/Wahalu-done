@@ -39,7 +39,7 @@
 	
 </head>	
 <body id="container">
-<form action ='/wahalu/dashboard.php' method='POST'>
+<form action ='/wahalu/verify.php' method='POST'><!--refer to company dashboard with details-->
 <h1>Username:</h1>
 <input type='text' name='username'>
 <h1>Password:</h1>

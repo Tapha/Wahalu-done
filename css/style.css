@@ -314,7 +314,7 @@ border-bottom: 4px dashed #BBB;
 position:absolute;
 left: 134px;
 width: 800px;
-height: 800px;
+height: 500px;
 font-family: Helvetica, sans-serif;
 color: #787878;
 }
@@ -342,7 +342,7 @@ font-family: Helvetica, Arial, sans-serif;
 
 {
 background:#8ED17C;
-width:135px;
+width:107px;
 font-size: 15px;
 color: #FFF;
 font-family: Helvetica, Arial, sans-serif;
@@ -465,6 +465,7 @@ font-family: Helvetica, Arial, sans-serif;
 color: #787878;
 font-size: 10px;
 text-align: center;
+height: 20px;
 }
 
 #footer_nav a
@@ -545,7 +546,7 @@ font-size: 25px;
 width: 400px;
 position: relative;
 top: -85px;
-left: 402px;
+left: 422px;
 text-align: center;
 }
 
@@ -598,23 +599,24 @@ background: #8ED17C;
 width: 91px;
 }
 
-#start_conversations
+#state_goals
 
 {
 position: relative;
 top: 10px;
+left: 25px;
 background: #8ED17C;
-width: 144px;
+width: 90px;
 }
 
-#view_conversation
+#view_insights
 
 {
 position: relative;
 top: -10px;
 left: 152px;
 background: #8ED17C;
-width: 144px;
+width: 104px;
 }
 
 #open_tab
@@ -622,7 +624,7 @@ width: 144px;
 {
 position: relative;
 top: -30px;
-left: 304px;
+left: 290px;
 background: #8ED17C;
 width: 74px;
 }
@@ -632,7 +634,7 @@ width: 74px;
 {
 position: relative;
 top: -50px;
-left: 390px;
+left: 399px;
 background: #8ED17C;
 width: 90px;
 }
@@ -648,24 +650,25 @@ width: 91px;
 color: #222;
 }
 
-#start_conversations:hover
+#state_goals:hover
 
 {
 position: relative;
 top: 10px;
 background: #FF9;
-width: 144px;
 color: #222;
+left: 25px;
+width: 90px;
 }
 
-#view_conversation:hover
+#view_insights:hover
 
 {
 position: relative;
 top: -10px;
 left: 150px;
 background: #FF9;
-width: 144px;
+width: 104px;
 color: #222;
 }
 
@@ -674,7 +677,7 @@ color: #222;
 {
 position: relative;
 top: -30px;
-left: 300px;
+left: 290px;
 background: #FF9;
 width: 77px;
 color: #222;
@@ -685,7 +688,7 @@ color: #222;
 {
 position: relative;
 top: -50px;
-left: 390px;
+left: 399px;
 background: #FF9;
 width: 90px;
 color: #222;
@@ -709,7 +712,15 @@ position: absolute;
 top: 150px;
 }
 
-/*start_conversation*/
+#dashboard_icon_printer
+
+{
+position: absolute;
+float: right;
+right: 300px;
+}
+
+/*State-Goals*/
 
 #start_conversation
 

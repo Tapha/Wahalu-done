@@ -277,7 +277,7 @@ top: 400px;
 {
 position: absolute;
 color: #8ED17C;
-left: 404px;
+left: 400px;
 top: 75px;
 font-family: Helvetica, sans-serif;
 }
@@ -285,7 +285,7 @@ font-family: Helvetica, sans-serif;
 #quick_desc
 
 {
-width: 590px;
+width: 548px;
 color: #787;
 font-size: 16px;
 }
@@ -295,7 +295,7 @@ font-size: 16px;
 {
 position: absolute;
 top: 100px;
-left:140px;
+left:136px;
 border-right: 4px dashed #BBB;
 border-left: 4px dashed #BBB;
 border-bottom: 4px dashed #BBB;
@@ -455,11 +455,66 @@ color: #FFF;
 font-family: Helvetica, Arial, sans-serif;
 }
 
-#press
+#press a
+
+{
+width: 45px;
+float: right;
+position: absolute;
+top: 310px;
+right: 105px;
+background-color: #EEE;
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+margin: 0px 0px 5px;
+padding: 1px 8px;
+color: grey;
+font-size: 8px;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+#press a:hover
+
+{
+color: white;
+}
+
+#how_to_vid a
+
+{
+width: 101px;
+float: right;
+position: absolute;
+top: 545px;
+right: 72px;
+background-color: #222;
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+margin: 0px 0px 5px;
+padding: 1px 8px;
+color: white;
+font-size: 8px;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+#how_to_vid a:hover
+
+{
+color:#787878 ;
+}
+
+#how_to_login a
 
 {
 width: 110px;
 float: right;
+position: relative;
+top: -129px;
+right: 60px;
 background-color: #8ED17C;
 border-bottom-left-radius: 6px 6px;
 border-bottom-right-radius: 6px 6px;
@@ -472,24 +527,11 @@ font-size: 8px;
 font-family: Helvetica, Arial, sans-serif;
 }
 
-#how_to_login
+#how_to_login a:hover
 
 {
-width: 110px;
-float: right;
-position: relative;
-top: -130px;
-right: 60px;
-background-color: #8ED17C;
-border-bottom-left-radius: 6px 6px;
-border-bottom-right-radius: 6px 6px;
-border-top-left-radius: 6px 6px;
-border-top-right-radius: 6px 6px;
-margin: 0px 0px 5px;
-padding: 1px 8px;
-color: white;
-font-size: 8px;
-font-family: Helvetica, Arial, sans-serif;
+
+color: #B2DFEE;
 }
 
 #footer
@@ -793,4 +835,4 @@ background: #e2f8ef;
 }
 
 a {text-decoration:none; color: #FFF; font-family: Helvetica, Arial, sans-serif;}
-a:hover{color: #B2DFEE;}
+a:hover{color: grey;}

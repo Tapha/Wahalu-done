@@ -58,7 +58,7 @@
 </div>	
 <body id="container">
 <div id="main">
-<div id='tagline'><h1>Bring Social Media Strategy To You</h1><h2 id='quick_desc'>We have brought together a community of the best in social media and put them on an innovative platform and model that allows you to efficiently and 
+<div id='tagline'><h1>We Bring Social Media Strategy To You</h1><h2 id='quick_desc'>We have brought together a community of the best in social media and put them on an innovative platform and model that allows you to efficiently and 
  easily get insight and advice on how best to promote your brand in this new social landscape. Other's believe in tools but we believe in people.</h2></div>
 <img id='the_logo' src='/wahalu/assets/images/logo/wahalu_logo.png'>
 <div id='customers_text'><h1>Customers</h1></div>

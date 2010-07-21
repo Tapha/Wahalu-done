@@ -334,7 +334,7 @@ left: 397px;
 background:#8ED17C;
 width:128px;
 font-size: 10px;
-color: #FFF;
+color: white;
 font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -455,6 +455,43 @@ color: #FFF;
 font-family: Helvetica, Arial, sans-serif;
 }
 
+#press
+
+{
+width: 110px;
+float: right;
+background-color: #8ED17C;
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+margin: 0px 0px 5px;
+padding: 1px 8px;
+color: white;
+font-size: 8px;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+#how_to_login
+
+{
+width: 110px;
+float: right;
+position: relative;
+top: -130px;
+right: 60px;
+background-color: #8ED17C;
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+margin: 0px 0px 5px;
+padding: 1px 8px;
+color: white;
+font-size: 8px;
+font-family: Helvetica, Arial, sans-serif;
+}
+
 #footer
 
 {
@@ -535,7 +572,7 @@ background: #8ED17C;
 background: #bbb;
 }
 
-/*Dashboard*/
+/*Dashboard Company*/
 
 #company_name
 
@@ -710,6 +747,7 @@ height: 600px;
 width: 1093px;
 position: absolute;
 top: 150px;
+font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #dashboard_icon_printer

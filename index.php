@@ -80,6 +80,8 @@
 <div id='works_3'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
 <div id='works_description_3'>Engage with the social media advisors whose ideas resonate with you the most and work with them to execute on your new strategies.</div>
 <div id='benefit'><h1 id='text_benefits'>Benefits</h1></div>
+<div id='how_to_login'><a href='/wahalu/login.php/'><h1>How To Login</h1></a></div>
+
 </div>
 <div id='footer'>
 <h1>

@@ -17,7 +17,7 @@ postition: relative;
 {
 padding: 5px 5px 5px 5px;
 height: 61px;font-family: Helvetica, Arial, sans-serif;
-border-bottom: 4px dashed #BBB;
+border-bottom: 1px dashed #BBB;
 
 }
 
@@ -277,7 +277,7 @@ top: 400px;
 {
 position: absolute;
 color: #8ED17C;
-left: 400px;
+left: 379px;
 top: 75px;
 font-family: Helvetica, sans-serif;
 }
@@ -285,9 +285,9 @@ font-family: Helvetica, sans-serif;
 #quick_desc
 
 {
-width: 548px;
+width: 539px;
 color: #787;
-font-size: 16px;
+font-size: 17.2px;
 }
 
 #the_logo
@@ -296,9 +296,9 @@ font-size: 16px;
 position: absolute;
 top: 100px;
 left:136px;
-border-right: 4px dashed #BBB;
-border-left: 4px dashed #BBB;
-border-bottom: 4px dashed #BBB;
+border-right: 1px dashed #BBB;
+border-left: 1px dashed #BBB;
+border-bottom: 1px dashed #BBB;
 }
 
 #main
@@ -330,7 +330,7 @@ color: #787878;
 {
 position: relative;
 top: 144px;
-left: 397px;
+left: 372px;
 background:#8ED17C;
 width:128px;
 font-size: 10px;
@@ -348,7 +348,7 @@ color: #FFF;
 font-family: Helvetica, Arial, sans-serif;
 position: absolute;
 top: 333px;
-left: 405px;
+left: 382px;
 }
 
 #works
@@ -356,7 +356,7 @@ left: 405px;
 {
 position: absolute;
 top: 356px;
-left: 377px;
+left: 354px;
 }
 
 #works_description
@@ -367,7 +367,7 @@ font-family: Helvetica, Arial, sans-serif;
 font-size: 10px;
 width: 170px;
 top: 505px;
-left: 400px;
+left: 380px;
 }
 
 #works_title_2
@@ -440,7 +440,7 @@ left: 820px;
 position:relative;
 left: 133px;
 top: 410px;
-border-top: 4px dashed #BBB;
+border-top: 1px solid #BBB;
 width: 842px;
 color: #ddd;
 }
@@ -565,7 +565,7 @@ background-color: #EEE;
 {
 top: 600px;
 position: relative;
-border-top: 4px dashed #bbb;
+border-top: 1px dashed #bbb;
 font-family: Helvetica, Arial, sans-serif;
 color: #787878;
 font-size: 10px;

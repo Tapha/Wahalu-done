@@ -2,7 +2,7 @@
 
 //Bring in database connection
 
-require('/wahalu/includes/dbcon.php');
+require('/includes/dbcon.php');
 
 //Database Class
 
@@ -57,21 +57,23 @@ Class Database
 				public function get_company_information($username = NULL, $password = NULL)
 
 								{
-									$sql_for_get_company = "SELECT * FROM company_information WHERE username = '$username' AND password '$password'";
+									$sql_for_get_company = "SELECT * FROM company_information WHERE username = '$username' AND password = '$password'";
 									
-									while ($rows = mysql_fetch_assoc($sql_for_get_company))
+									$sql_for_get_company_query = mysql_query($sql_for_get_company);
+									
+									while ($rows = mysql_fetch_assoc($sql_for_get_company_query))
 									
 											{
 											
 												
-												$company_id = $row['company_id'];
+												$company_id = $rows['company_id'];
 												
-												$admin_id = $row['admin_id'];
+												$admin_id = $rows['admin_id'];
 										
 											}
 											
 									$company_information = array($company_id, $admin_id);
-
+														
 									return $company_information;
 									
 								}

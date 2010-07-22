@@ -2,17 +2,17 @@
 
 //Load Database Class
 
-require('/wahalu/classes/database.php');
-
-if isset($_POST['username'] && $_POST['password'])
-
-{
+require('/classes/database.php');
 
 //Grab Inputs
 
 $username = $_POST['username'];
 
 $password = md5($_POST['password']);
+
+if (isset($username) && ($password))
+
+{
 
 
 //Instantiate db class
@@ -24,23 +24,21 @@ $password = md5($_POST['password']);
 	$value = $db->check($username, $password);
 
 	
-	if ($value = true)
+	if ($value == true)
 	
 		{
 		
-			//Get all the database information.
+				      //Get all the database information.
 			
 				$company_information = $db->get_company_information($username, $password);
 				
-				$company_id = $company_information['company_id'];
+				$company_id = $company_information[0];
 				
-				$admin_id = $company_information['admin_id'];
+				$admin_id = $company_information[1];
 				
 				//Start session
 				
-				
-		
-				header("Location: /wahalu/dashboard/company_dashboard/index.php?company_id='$company_id'&admin_id=$admin_id");
+				header("Location: /wahalu/dashboard/company_dashboard/index.php?company_id=$company_id&admin_id=$admin_id");
 		
 		}
 		

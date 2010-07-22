@@ -58,8 +58,8 @@
 </div>	
 <body id="container">
 <div id="main">
-<div id='tagline'><h1>We Bring Social Media Strategy To You</h1><h2 id='quick_desc'>We have brought together a community of the best in social media and put them on an innovative platform and model that allows you to efficiently and 
- easily get insight and advice on how best to promote your brand in this new social landscape. Other's believe in tools but we believe in people.</h2></div>
+<div id='tagline'><h1>We Bring Social Media Strategy To You</h1><h2 id='quick_desc'>We have a community of the best in social media, on our innovative platform and model that allows you to efficiently and 
+ easily get insights on how best to promote your brand online. In a marketing environment where ideas are key. We give you the advantage.</h2></div>
 <img id='the_logo' src='/wahalu/assets/images/logo/wahalu_logo.png'>
 <div id='customers_text'><h1>Customers</h1></div>
 <div id='customers_image_1'><img src='/wahalu/assets/images/customers/logo_mahalo.jpg'></div>
@@ -75,14 +75,15 @@
 <div id='works_description'>State your social media marketing goals. Get insights on strategy from people who know what's really going on. Our Registered Social Media Advisors.</div>
 <div id='works_title_2'>Gain Insight</div>
 <div id='works_2'><img src='/wahalu/assets/images/works/w_wahalu_conversation.png'></div>
-<div id='works_description_2'>Get insights and real-time advice on how best to promote your brand in this new social landscape. Our innovative platform allows you to see the best insights.</div>
+<div id='works_description_2'>Get insights and real-time advice on how best to promote your brand in this new social media landscape. Our innovative platform allows you to see the best insights.</div>
 <div id='works_title_3'>Engage</div>
 <div id='works_3'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
-<div id='works_description_3'>Engage with the social media advisors whose ideas resonate with you the most and work with them to execute on your new strategies.</div>
+<div id='works_description_3'>Engage with the social media advisors whose ideas resonate with you most and work with them to execute on your new strategies.</div>
 <div id='benefit'><h1 id='text_benefits'>Benefits</h1></div>
 <div id='how_to_login'><a href='/wahalu/login.php/'><h1>How To Login</h1></a></div>
 <div id='press'><a href='/wahalu/buzz.php/'><h1>Press</h1></a></div>
 <div id='how_to_vid'><a href='youtube.com/video_link/'><h1>How It Works</h1></a></div>
+<div id='how_to_vid_video'><object id='actual_vid' width="1" height="1"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=9264564&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=9264564&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="170" height="131"></embed></object></div>
 </div>
 <div id='footer'>
 <h1>

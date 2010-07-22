@@ -1,4 +1,8 @@
-<?php// if (isset($user_number)){ ?>
+<?php// Initial PHP
+
+
+
+?>
 
 <!doctype html>
 

@@ -698,58 +698,85 @@ font-size: 40px;
 
 {
 position: relative;
-top: -70px;
+top: -90px;
 left: -105px;
 background: #8ED17C;
 width: 91px;
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+margin: 0px 0px 5px;
+padding: 1px 8px;
 }
 
 #state_goals
 
 {
 position: relative;
-top: 10px;
+top: 18px;
 left: 25px;
 background: #8ED17C;
 width: 90px;
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+margin: 0px 0px 5px;
+padding: 1px 8px;
 }
 
 #view_insights
 
 {
 position: relative;
-top: -10px;
+top: -9px;
 left: 152px;
 background: #8ED17C;
 width: 104px;
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+margin: 0px 0px 5px;
+padding: 1px 8px;
 }
 
 #open_tab
 
 {
 position: relative;
-top: -30px;
+top: -35px;
 left: 290px;
 background: #8ED17C;
 width: 74px;
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+margin: 0px 0px 5px;
+padding: 1px 8px;
 }
 
 #work_room
 
 {
 position: relative;
-top: -50px;
+top: -62px;
 left: 399px;
 background: #8ED17C;
 width: 90px;
+border-bottom-left-radius: 6px 6px;
+border-bottom-right-radius: 6px 6px;
+border-top-left-radius: 6px 6px;
+border-top-right-radius: 6px 6px;
+margin: 0px 0px 5px;
+padding: 1px 8px;
 }
 
 #My_Account:hover
 
 {
-position: relative;
-top: -70px;
-left: -105px;
 background: #FF9;
 width: 91px;
 color: #222;
@@ -758,20 +785,14 @@ color: #222;
 #state_goals:hover
 
 {
-position: relative;
-top: 10px;
 background: #FF9;
 color: #222;
-left: 25px;
 width: 90px;
 }
 
 #view_insights:hover
 
 {
-position: relative;
-top: -10px;
-left: 150px;
 background: #FF9;
 width: 104px;
 color: #222;
@@ -780,9 +801,6 @@ color: #222;
 #open_tab:hover
 
 {
-position: relative;
-top: -30px;
-left: 290px;
 background: #FF9;
 width: 77px;
 color: #222;
@@ -791,9 +809,6 @@ color: #222;
 #work_room:hover
 
 {
-position: relative;
-top: -50px;
-left: 399px;
 background: #FF9;
 width: 90px;
 color: #222;

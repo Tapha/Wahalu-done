@@ -23,12 +23,13 @@ if (isset($username) && ($password))
 	
 	$value = $db->check($username, $password);
 
+	//Load Company dashboard if user is company
 	
 	if ($value == true)
 	
 		{
 		
-				      //Get all the database information.
+				//Get all the database information.
 			
 				$company_information = $db->get_company_information($username, $password);
 				
@@ -38,7 +39,7 @@ if (isset($username) && ($password))
 				
 				//Start session
 				
-				header("Location: /wahalu/dashboard/company_dashboard/index.php?company_id=$company_id&admin_id=$admin_id");
+				header("Location: load.php?company_id=$company_id&admin_id=$admin_id");
 		
 		}
 		

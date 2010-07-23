@@ -10,7 +10,7 @@ Class Database
 
 			{
 				
-				//Login
+				//The Login methods
 				
 				//Check Data
 				
@@ -65,7 +65,6 @@ Class Database
 									
 											{
 											
-												
 												$company_id = $rows['company_id'];
 												
 												$admin_id = $rows['admin_id'];
@@ -77,5 +76,32 @@ Class Database
 									return $company_information;
 									
 								}
+								
+				public function get_additional_company_information($company_id = NULL, $admin_id = NULL)
+
+								{
+									$sql_for_get_company = "SELECT * FROM company_information WHERE company_id = '$company_id' AND admin_id = '$admin_id'";
+									
+									$sql_for_get_company_query = mysql_query($sql_for_get_company);
+									
+									while ($rows = mysql_fetch_assoc($sql_for_get_company_query))
+									
+											{
+												
+												$company_name = $rows['company_name'];
+												
+												$first_name = $rows['first_name'];
+												
+												$last_name = $rows['last_name'];
+												
+												$username = $rows['username'];
+										
+											}
+											
+									$additional_company_information = array($company_name, $first_name, $last_name, $username);
+														
+									return $additional_company_information;
+									
+								}				
 				
 			}

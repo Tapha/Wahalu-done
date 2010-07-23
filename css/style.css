@@ -201,7 +201,7 @@ text-decoration: none;
 
 #container
 
-{font: normal normal normal 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;}
+{font-family: normal normal normal 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;}
 
 #customers_text
 
@@ -877,3 +877,23 @@ background: #e2f8ef;
 
 a {text-decoration:none; color: #FFF; font-family: Helvetica, Arial, sans-serif;}
 a:hover{color: grey;}
+
+/*Loading*/
+
+#loading
+
+{
+font-family: Helvetica, Arial, sans-serif;
+position: absolute;
+left: 500px;
+color: #8ED17C;
+top: 170px;
+}
+
+#loading_image
+
+{
+position: absolute;
+left: 531.7px;
+top: 270px;
+}

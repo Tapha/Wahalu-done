@@ -1,4 +1,4 @@
-<?php// if (isset($user_number)){ ?>
+<?php// if (isset($user_number)){// Put session verfying here?>
 
 <!doctype html>
 

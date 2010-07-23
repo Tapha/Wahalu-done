@@ -1,6 +1,26 @@
-<?php// Initial PHP
+<?php session_start(); ?>
 
+<?php 
 
+//Get Data
+
+$company_id = strip_tags($_GET['company_id']);
+
+$admin_id = strip_tags($_GET['admin_id']);
+
+if (isset($_SESSION['username']))
+
+{
+
+//Load Other Data
+
+$company_name = $_SESSION['company_name'];
+	
+$first_name = $_SESSION['first_name'];
+	
+$last_name = $_SESSION['last_name'];
+	
+$username = $_SESSION['username'];	
 
 ?>
 
@@ -70,7 +90,7 @@ $('form_submitted').FadeIn('slow');
 <div id="My_Account"><a href='/wahalu/dashboard/company_dashboard/my_dash.php'>My Account</a></div>
 </h4>
 </div>
-<div id='company_name'><h1><?php echo 'Virgin America'; ?></h1></div>
+<div id='company_name'><h1><?php echo $company_name; ?> </h1></div>
 <div id='main_body_dashboard'></div>
 </div>
 </div>
@@ -78,4 +98,4 @@ $('form_submitted').FadeIn('slow');
 </body>	
 </html>
 
-<?php// } else {echo "Na na na na na na, your not logged in.";}?>
+<?php } else {echo "Na na na na na na, your not logged in.";}?>

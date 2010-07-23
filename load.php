@@ -1,4 +1,6 @@
- <?php
+<?php/*session_start*/ session_start();?>
+ 
+<?php
  
 require_once('classes/database.php'); 
  
@@ -30,7 +32,19 @@ $db = new Database();
 	
 	$username = $add_data[3];
 	
+//Store values in session
+
+$_SESSION['company_id'] = $company_id;
+
+$_SESSION['admin_id'] = $admin_id;	
+
+$_SESSION['company_name'] = $company_name;
 	
+$_SESSION['first_name'] = $first_name;
+	
+$_SESSION['last_name'] = $last_name;
+	
+$_SESSION['username'] = $username;	
 
 ?>
 <!doctype html>
@@ -98,3 +112,4 @@ var interval = setInterval(function() {
 else
 
 	{echo "Sorry mate, nice try though!";}
+	

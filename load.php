@@ -61,7 +61,7 @@ var interval = setInterval(function() {
 
 	if (counter == 2) {
 		
-	window.location = "/wahalu/dashboard/company_dashboard/index.php?company_id=$company_id&admin_id=$admin_id";
+	window.location = "/wahalu/dashboard/company_dashboard/index.php?company_id=<?php echo $company_id; echo "&admin_id="; echo $admin_id; ?>";
 	
 	}
 

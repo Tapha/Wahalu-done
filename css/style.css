@@ -655,6 +655,34 @@ left: 422px;
 text-align: center;
 }
 
+#live_feed
+
+{
+position: absolute;
+top: 250px;
+right: 389px;
+border-left: 1px dashed #BBB;
+border-right: 1px dashed #BBB;
+width: 500px;
+height: 410px;
+}
+
+#pdf
+
+{
+position: absolute;
+top: 71px;
+right: 221px;
+}
+
+#printer
+
+{
+position: absolute;
+top: 71px;
+right: 119px;
+}
+
 #start_head
 
 {

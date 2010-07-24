@@ -94,7 +94,7 @@ $('form_submitted').FadeIn('slow');
 <a id ='printer' href='/wahalu/dashboard/company_dashboard/print.php'><!-->Add some url stuff here to make it printable--><img src='/wahalu/assets/images/dashboard-icons/Printer-64.png'></a>
 <a id ='pdf' href='/wahalu/dashboard/company_dashboard/pdf.php'><!-->Add some url stuff here to make it pdf--><img src='/wahalu/assets/images/dashboard-icons/File-pdf-64.png'></a>
 <div id='main_body_dashboard'></div>
-<div id ='live_feed'
+<div id ='live_feed'>
 </div>
 </div>
 

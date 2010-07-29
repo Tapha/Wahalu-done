@@ -73,7 +73,7 @@ var interval = setInterval(function() {
     counter++;
     // Display 'counter' wherever you want to display it.
 
-	if (counter == 2) {
+	if (counter == 3) {
 		
 	window.location = "/wahalu/dashboard/company_dashboard/index.php?company_id=<?php echo $company_id; echo "&admin_id="; echo $admin_id; ?>";
 	

@@ -22,6 +22,22 @@
 
 <script type="text/javascript" src="/wahalu/jquery/js/jquery-ui-1.8.2.custom.min.js"></script>
 
+<script type="text/javascript" src="/wahalu/jquery/jquery.NobleCount.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+
+
+$('#your_thing').NobleCount('#count2', {max_chars: 140});
+
+$('#your_promo').NobleCount('#count3', {max_chars: 140});
+
+});
+
+</script>
+
 	<meta name="title" content="Wahalu" />
 	
 	<meta name="description" content="Bring Social Media To You" />
@@ -60,7 +76,26 @@
 <div id="main">
 <div id='how_to_buy_body'>
 <div id='how_to_buy_headline'><h1>Get Started With Our Advisors In Minutes</h1></div>
-
+<form id='post_form' action='/wahalu/post.php' method='POST'>
+<span id='your_thing_text'><h1>What would you like to promote?<img src='http://www.surveygizmo.com/images/surveys/req.gif'></h1></span>
+<br>
+<div id='count2'><h1>140</h1></div>
+<input id='your_thing' type='text' name='your_thing'>
+<br>
+<span id='your_promo_goal_text'><h1>What do you want to achieve with your campaign?<img src='http://www.surveygizmo.com/images/surveys/req.gif'></h1></span>
+<br>
+<div id='count3'><h1>140</h1></div>
+<input id='your_promo' type='text' name='your_promo_goal'>
+<br>
+<span id='your_email_text'><h1>What is your email address?<img src='http://www.surveygizmo.com/images/surveys/req.gif'></h1></span>
+<br>
+<input id='your_email' type='text' name='your_email'>
+<br>
+<span id='your_password_text'><h1>What's your password?<img src='http://www.surveygizmo.com/images/surveys/req.gif'> (Haven't got one?, choose one now.)</h1></span> 
+<br>
+<input id='your_password' type='password' name='your_password'>
+<br>
+<input id='submit_query' type='submit'value='Submit'>
 </div>
 <div id='footer'>
 <h1>

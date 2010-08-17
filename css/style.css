@@ -461,6 +461,15 @@ font-family: Helvetica, Arial, sans-serif;
 color: white;
 }
 
+#press_real
+
+{
+color: grey;
+position: absolute;
+right: 40px;
+top: 400px;
+}
+
 #how_to_vid a
 
 {
@@ -1031,6 +1040,121 @@ background: #e2f8ef;
 
 a {text-decoration:none; color: #FFF; font-family: Helvetica, Arial, sans-serif;}
 a:hover{color: grey;}
+
+/*Post_query*/
+
+#your_thing
+
+{
+position: absolute;
+top: 120px;
+height: 40px;
+font-size: 30px;
+width: 634px;
+color: #787;
+background-color: #F9F9F9;
+border: 1px solid #E2E0D8;
+padding: 4px;
+}
+
+#count2
+
+{
+position: absolute;
+left: 650px;
+top: 116px;
+font-size: 40px;
+color: #8ED17C;
+}
+
+
+#your_promo
+
+{
+position: absolute;
+top: 230px;
+height: 40px;
+font-size: 30px;
+width: 634px;
+color: #787;
+background-color: #F9F9F9;
+border: 1px solid #E2E0D8;
+padding: 4px;
+}
+
+#count3
+
+{
+
+position: absolute;
+left: 650px;
+top: 226px;
+font-size: 40px;
+color: #8ED17C;
+}
+#your_email
+
+{
+position: absolute;
+top: 350px;
+height: 40px;
+font-size: 30px;
+width: 334px;
+color: #787;
+background-color: #F9F9F9;
+border: 1px solid #E2E0D8;
+padding: 4px;
+}
+
+#your_password
+
+{
+position: absolute;
+top: 450px;
+height: 40px;
+font-size: 30px;
+width: 334px;
+color: #787;
+background-color: #F9F9F9;
+border: 1px solid #E2E0D8;
+padding: 4px;
+}
+
+#submit_query
+
+{
+position: absolute;
+top: 520px;
+left: -3px;
+right: 95px;
+width: 101px;  
+padding: 9px 5px;  
+font-size: 20px;
+}
+
+#your_thing_text
+
+{
+color: #27AAE1;
+}
+
+#your_promo_goal_text
+
+{
+color: #27AAE1;
+}
+
+#your_email_text
+
+{
+color: #27AAE1;
+}
+
+#your_password_text
+
+{
+color: #27AAE1;
+}
 
 /*Loading*/
 

@@ -258,6 +258,10 @@ border-bottom-left-radius: 3px 3px;
 border-bottom-right-radius: 3px 3px;
 border-top-left-radius: 3px 3px;
 border-top-right-radius: 3px 3px;
+moz-border-bottom-left-radius: 3px 3px;
+moz-border-bottom-right-radius: 3px 3px;
+moz-border-top-left-radius: 3px 3px;
+moz-border-top-right-radius: 3px 3px;
 color: #666;
 font-size: 11px;
 left: 75px;
@@ -495,11 +499,11 @@ top:191px;
 
 {
 position: absolute;
-top: -27px;
+top: -28px;
 width: 140px;
 font-family: Helvetica, Arial, sans-serif;
 font-size: 6px;
-color: #CdE7FB;
+color: #00BFFF;
 right: -10px;
 }
 

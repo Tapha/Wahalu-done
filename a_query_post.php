@@ -4,7 +4,7 @@
 
 <head>
 
-<title> Wahalu - How To Buy </title>
+<title> Wahalu - Post A Query </title>
 
 <link rel="stylesheet" type="text/css" href="/wahalu/css/style.css"/>
 
@@ -46,10 +46,8 @@
 <span id ='real_nav'>
 <a id='what' href='/wahalu/what_is.php/'>What Is Wahalu?</a>
 <a id='why' href='/wahalu/benefits.php/'>Benefits</a>
-<a id='pricing' href='/wahalu/pricing.php/'>Pricing</a>
-<a id='how' href='/wahalu/how_to_buy.php/'>How To Buy</a>
-<a id='buzz' href='/wahalu/buzz.php/'>Buzz</a>
-<a id='tour' href='/wahalu/tour.php/'>Tour</a>
+<a id='how' href='/wahalu/a_query_post.php/'>Post A Query</a>
+<a id='user_signup' href='/wahalu/pricing.php/'>Business Sign-Up</a>
 </span>
 </h1>
 <a id='Sign_up_1' href='/wahalu/advisor_sign_up.php'>Advisor Sign Up</a>

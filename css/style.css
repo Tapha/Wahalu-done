@@ -72,15 +72,13 @@ float: right;
 
 {
 position: relative;
-left: -477px;
+left: -451px;
 border-bottom:5px solid #eee;
 }
 
 #what:hover
 
 {
-position: relative;
-left: -477px;
 border-bottom:5px solid #8ED17C;
 }
 
@@ -88,7 +86,7 @@ border-bottom:5px solid #8ED17C;
 
 {
 position: relative;
-left: -440px;
+left: -388px;
 border-bottom:5px solid #eee;
 
 }
@@ -96,8 +94,6 @@ border-bottom:5px solid #eee;
 #why:hover
 
 {
-position: relative;
-left: -440px;
 border-bottom:5px solid #8ED17C;
 }
 
@@ -105,73 +101,37 @@ border-bottom:5px solid #8ED17C;
 
 {
 position: relative;
-left: -350px;
+left: -330px;
 border-bottom:5px solid #eee;
 }
 
 #how:hover
 
 {
-position: relative;
-left: -350px;
 border-bottom:5px solid #8ED17C;
 }
 
-#pricing
+#user_signup
 
 {
 position: relative;
-left: -400px;
+left: -283px;
 border-bottom:5px solid #eee;
 }
 
-#pricing:hover
+#user_signup:hover
 
 {
-position: relative;
-left: -400px;
-border-bottom:5px solid #8ED17C;
-}
-
-#buzz
-
-{
-position: relative;
-left: -320px;
-border-bottom:5px solid #eee;
-}
-
-#buzz:hover
-
-{
-position: relative;
-left: -320px;
 border-bottom:5px solid #8ED17C;
 
-}
 
-#tour
-
-{
-position: relative;
-left: -280px;
-border-bottom:5px solid #eee;
-}
-
-
-#tour:hover
-
-{
-position: relative;
-left: -280px;
-border-bottom:5px solid #8ED17C;
 }
 
 #Sign_up_1 
 
 {
 position: relative;
-left: 420px;
+left: 460px;
 top: -41px;
 font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, Arial, sans-serif;
 text-decoration: none;
@@ -287,7 +247,7 @@ font-family: Helvetica, sans-serif;
 {
 width: 539px;
 color: #787;
-font-size: 17.2px;
+font-size: 15.2px;
 }
 
 #the_logo
@@ -342,7 +302,7 @@ font-family: Helvetica, Arial, sans-serif;
 
 {
 background:#8ED17C;
-width:107px;
+width:89px;
 font-size: 15px;
 color: #FFF;
 font-family: Helvetica, Arial, sans-serif;
@@ -577,7 +537,7 @@ height: 20px;
 
 {
 text-decoration:none;
-color: #787878;
+color: #ffffff;
 }
 
 #About
@@ -981,13 +941,10 @@ top: 125px;
 right: 28px;
 width: auto;  
 padding: 9px 5px;  
-background: #8ED17C;  
-border: 0;  
-font-size: 15px;  
-color: #FFFFFF;  
+font-size: 20x;  
 }
 
-#goal_submit:hover
+#oal_submit:hover
 
 {
 background: #FF9;

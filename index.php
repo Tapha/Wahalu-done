@@ -4,7 +4,7 @@
 
 <head>
 
-<title> Wahalu - Bring Social Media Strategy To You </title>
+<title> Wahalu - Bring Online Marketing Ideas To You </title>
 
 <link rel="stylesheet" type="text/css" href="/wahalu/css/style.css"/>
 
@@ -46,10 +46,8 @@
 <span id ='real_nav'>
 <a id='what' href='/wahalu/what_is.php/'>What Is Wahalu?</a>
 <a id='why' href='/wahalu/benefits.php/'>Benefits</a>
-<a id='pricing' href='/wahalu/pricing.php/'>Pricing</a>
-<a id='how' href='/wahalu/how_to_buy.php/'>How To Buy</a>
-<a id='buzz' href='/wahalu/buzz.php/'>Buzz</a>
-<a id='tour' href='/wahalu/tour.php/'>Tour</a>
+<a id='how' href='/wahalu/a_query_post.php/'>Post A Query</a>
+<a id='user_signup' href='/wahalu/sign_up.php/'>Business Sign-Up</a>
 </span>
 </h1>
 <a id='Sign_up_1' href='/wahalu/advisor_sign_up.php'>Advisor Sign Up</a>
@@ -58,8 +56,7 @@
 </div>	
 <body id="container">
 <div id="main">
-<div id='tagline'><h1>We Bring Social Media Strategy To You</h1><h2 id='quick_desc'>We have a community of the best in social media, on our innovative platform and model that allows you to efficiently and 
- easily get insights on how best to promote your brand online. In a marketing environment where ideas are key. We give you the advantage.</h2></div>
+<div id='tagline'><h1>We Bring Online Marketing Ideas To You</h1><h2 id='quick_desc'>We have a community of the best in seo, sem and social media, who through our innovative platform and model efficiently and easily give insights to you on how best to promote your brand online. In a marketing environment where ideas are key. We give you the advantage.</h2></div>
 <img id='the_logo' src='/wahalu/assets/images/logo/wahalu_logo.png'>
 <div id='customers_text'><h1>Customers</h1></div>
 <div id='customers_image_1'><img src='/wahalu/assets/images/customers/logo_mahalo.jpg'></div>
@@ -70,9 +67,9 @@
 <div id='customers_image_6'><img src='/wahalu/assets/images/customers/logo_smg.jpg'></div>
 <div id='customers_image_7'><img src='/wahalu/assets/images/customers/logo_pitneybowes.jpg'></div>
 <div id='how_it_works'><h1>How It Works</h1></div>
-<div id='works_title_1'>State your goals</div>
+<div id='works_title_1'>Post A Query</div>
 <div id='works'><img src='/wahalu/assets/images/works/wahalu_conversation.png'></div>
-<div id='works_description'>State your social media marketing goals. Get insights on strategy from people who know what's really going on. Our Registered Social Media Advisors.</div>
+<div id='works_description'>Tell us what you would like to advertise and what you would like to achieve from the promotion. We then send your query by email to all of our registered advisors.</div>
 <div id='works_title_2'>Gain Insight</div>
 <div id='works_2'><img src='/wahalu/assets/images/works/w_wahalu_conversation.png'></div>
 <div id='works_description_2'>Get insights and real-time advice on how best to promote your brand in this new social media landscape. Our innovative platform allows you to see the best insights.</div>

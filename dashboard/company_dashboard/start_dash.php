@@ -57,7 +57,7 @@ $('#attach_url').click(function(){
 $('#goal_url').slideDown('slow');
 });
 
-$('#goal_description').NobleCount('#count1', {max_chars: 280});
+$('#goal_description').NobleCount('#count1', {max_chars: 134});
 
 });
 
@@ -93,9 +93,9 @@ $('#goal_description').NobleCount('#count1', {max_chars: 280});
 <div id='main_body_dashboard'></div><div id='inner_db'>
 <div id='goal_header'><h1>What is your social media goal?</h1></div>
 <form id='state_goal_form'>
-<div id='goal_description_title'>Describe your goal in 280 chars</div>
-<div id='count1'><h1>280</h1></div>
-<input id='goal_description' type='text' name='goal_description' rows='2'>
+<div id='goal_description_title'>Describe your goal in 134 chars</div>
+<div id='count1'><h1>134</h1></div>
+<input id='goal_description' type='text' name='goal_description'>
 <input id='goal_url' type='text' name='goal_url'>
 <div id='attach_url'><a href='#'>Attach Url: <img src='/wahalu/assets/images/dashboard-icons/Web_32.png'></a></div>
 <input id='goal_submit' type='submit' value='State Goal'>

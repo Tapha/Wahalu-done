@@ -36,6 +36,7 @@
 </head>	
 <div id ='header'>
 <a href='/wahalu/index.php/'><img id='icon_no_1' src='/wahalu/assets/images/icon/w/wahalu_icon_w.png'></a>
+<a id='beta' href='/wahalu/'>Beta</a>
 <img id='login_icon_1' src='/wahalu/assets/images/icons/login_icon_1.png'>
 <img id='login_icon_2' src='/wahalu/assets/images/icons/login_icon_2.png'>
 <img id='login_icon_3' src='/wahalu/assets/images/icons/login_icon_3.png'>
@@ -78,6 +79,8 @@
 <div id='works_description_3'>Engage with the social media advisors whose ideas resonate with you most and work with them to execute on your new strategies.</div>
 <div id='benefit'><h1 id='text_benefits'>Benefits</h1></div>
 <div id='how_to_login'><a href='/wahalu/login.php/'><h1>How To Login</h1></a></div>
+
+<div id='how_to_login_box'><div id='hover_instructions'><h1>Hover over the w icon on the left for 5 seconds.</h1></div><img src='/wahalu/assets/images/dashboard-icons/Box-128.png'></div>
 <div id='press'><a href='/wahalu/buzz.php/'><h1>Press</h1></a></div>
 <div id='how_to_vid'><a href='youtube.com/video_link/'><h1>How It Works</h1></a></div>
 <div id='how_to_vid_video'><object id='actual_vid' width="1" height="1"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=9264564&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=9264564&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="170" height="131"></embed></object></div>

@@ -36,6 +36,7 @@
 </head>	
 <div id ='header'>
 <a href='/wahalu/index.php/home'><img id='icon_no_1' src='/wahalu/assets/images/icon/w/wahalu_icon_w.png'></a>
+<a id='beta' href='/wahalu/'>Beta</a>
 <img id='login_icon_1' src='/wahalu/assets/images/icons/login_icon_1.png'>
 <img id='login_icon_2' src='/wahalu/assets/images/icons/login_icon_2.png'>
 <img id='login_icon_3' src='/wahalu/assets/images/icons/login_icon_3.png'>

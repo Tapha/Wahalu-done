@@ -250,6 +250,22 @@ color: #787;
 font-size: 15.2px;
 }
 
+#beta
+
+{
+background: #CAE7FB;
+border-bottom-left-radius: 3px 3px;
+border-bottom-right-radius: 3px 3px;
+border-top-left-radius: 3px 3px;
+border-top-right-radius: 3px 3px;
+color: #666;
+font-size: 11px;
+left: 75px;
+padding: 1px 10px;
+position: absolute;
+top: 14px;
+}
+
 #the_logo
 
 {
@@ -467,6 +483,26 @@ font-family: Helvetica, Arial, sans-serif;
 color: #eeeeee;
 }
 
+#how_to_login_box
+
+{
+position: absolute;
+right: 70px;
+top:191px;
+}
+
+#hover_instructions
+
+{
+position: absolute;
+top: -27px;
+width: 140px;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 6px;
+color: #CdE7FB;
+right: -10px;
+}
+
 #how_to_login a
 
 {
@@ -493,6 +529,7 @@ font-family: Helvetica, Arial, sans-serif;
 
 color: #EEE;
 }
+
 
 
 #actual_vid

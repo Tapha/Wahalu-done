@@ -40,7 +40,7 @@
 </head>	
 <body id="container">
 <form action ='/wahalu/verify.php' method='POST'><!--refer to company dashboard with details-->
-<h1>Username:</h1>
+<h1>Email Address:</h1>
 <input type='text' name='username'>
 <h1>Password:</h1>
 <input type='password' name='password'>

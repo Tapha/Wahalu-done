@@ -102,6 +102,14 @@ Class Database
 														
 									return $additional_company_information;
 									
-								}				
+								}
+
+				public function clean($data = NULL)
+
+								{
+									$cleaned = mysql_real_escape_string($data);
+									
+									return $cleaned;
+								}
 				
 			}

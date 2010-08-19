@@ -573,8 +573,9 @@ background-color: #EEE;
 #footer
 
 {
-top: 600px;
-position: relative;
+top: 910px;
+left: 300px;
+position: absolute;
 border-top: 1px dashed #bbb;
 font-family: Helvetica, Arial, sans-serif;
 color: #787878;

@@ -37,6 +37,12 @@ if (isset($username) && ($password))
 				
 				$admin_id = $company_information[1];
 				
+				//log user in
+				
+				$sql = "UPDATE company_information SET logged_in = 1 WHERE username = '$username' AND password = '$password'";
+				
+				mysql_query($sql);
+				
 				//Start session
 				
 				header("Location: load.php?company_id=$company_id&admin_id=$admin_id");

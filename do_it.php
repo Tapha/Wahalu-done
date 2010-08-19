@@ -4,7 +4,7 @@
 
 <head>
 
-<title> Wahalu - Advisor Sign Up </title>
+<title> Wahalu - Create An Account </title>
 
 <link rel="stylesheet" type="text/css" href="/wahalu/css/style.css"/>
 
@@ -74,7 +74,6 @@ $('#your_promo').NobleCount('#count3', {max_chars: 140});
 </div>	
 <body id="container">
 <div id="main">
-
 </div>
 <div id='footer'>
 <h1>

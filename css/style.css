@@ -1039,6 +1039,13 @@ font-size: 17px;
 background: #e2f8ef;
 }
 
+#promise
+
+{
+position: absolute;
+right: 49px;
+}
+
 a {text-decoration:none; color: #FFF; font-family: Helvetica, Arial, sans-serif;}
 a:hover{color: grey;}
 

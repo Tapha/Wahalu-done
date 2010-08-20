@@ -1,3 +1,15 @@
+<?php
+//Grab the data
+
+$your_thing = $_GET['what'];
+
+$achievable = $_GET['achievable'];
+
+$email = $_GET['email'];
+
+$password = $_GET['enc'];
+?>
+
 <!doctype html>
 
 <html>
@@ -74,6 +86,13 @@ $('#your_promo').NobleCount('#count3', {max_chars: 140});
 </div>	
 <body id="container">
 <div id="main">
+<form id='sign_post' action='/wahalu/dashboard/company_dashboard/payment_page.php' method='POST'>
+<input type='hidden' name='your_thing' value='<?php $your_thing ?>'>
+<input type='hidden' name='achievable' value='<?php $achievable ?>'>
+<input type='hidden' name='email' value='<?php $email ?>'>
+<input type='hidden' name='password' value='<?php $password ?>'>
+<input id='go_submit' type='Submit' value='Sign Up'>
+</form>
 </div>
 <div id='footer'>
 <h1>
